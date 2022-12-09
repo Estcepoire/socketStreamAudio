@@ -54,9 +54,6 @@ public class Client {
         Socket s=new Socket("localhost",6666);
         DataOutputStream dout=new DataOutputStream(s.getOutputStream());
         System.out.println("0-ARIANA_Ampelatanana");
-        System.out.println("1-Faingàna re Jeso_ANTSAN'I KRISTY");
-        System.out.println("2-jazz");
-        System.out.println("3-Omeo fo_LILI");
         System.out.println("Choice:");
         Scanner scan= new Scanner(System.in);
         String msg= (String)scan.nextLine();
